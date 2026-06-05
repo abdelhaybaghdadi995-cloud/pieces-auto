@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0f172a;
+  --panel: #1e293b;
+  --panel2: #273449;
+  --line: #334155;
+  --txt: #e2e8f0;
+  --muted: #94a3b8;
+  --acc: #3b82f6;
+  --acc2: #2563eb;
+  --ok: #22c55e;
+  --warn: #f59e0b;
+  --danger: #ef4444;
+  --chip: #0ea5e9;
+  --radius: 14px;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-panel: var(--panel);
+  --color-panel2: var(--panel2);
+  --color-line: var(--line);
+  --color-txt: var(--txt);
+  --color-muted: var(--muted);
+  --color-acc: var(--acc);
+  --color-acc2: var(--acc2);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-danger: var(--danger);
+  --color-chip: var(--chip);
+}
+
+html {
+  scroll-behavior: smooth;
+}

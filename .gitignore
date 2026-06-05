@@ -1,0 +1,5 @@
+# Pièces Auto — Speed-Code System
+
+node_modules/
+.next/
+*.local
